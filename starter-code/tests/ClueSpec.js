@@ -72,7 +72,7 @@ describe('Reveal the mistery - revealMistery', function () {
     expect(typeof revealMistery).toBe('function');
   });
 
-  it('Return an array', function () {
+  it('Return an string', function () {
     expect(typeof revealMistery([{ first_name: 'aa', last_name: 'abc' }, { name: 'abd' }, { name: 'abb' }])).toEqual('string');
   });
 
